@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Order</title>
+</head>
+<body>
+    <h1>Welcome to Pizza Order Delivery</h1>
+    <form method="POST" action="/">
+        <label for="size">Size of Pizza:</label><br>
+        <select name="size" id="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+        </select><br><br>
+
+        <label>Do you want Pepperoni?</label><br>
+        <input type="radio" name="pepperoni" value="Y" id="pepperoni-yes">
+        <label for="pepperoni-yes">Yes</label>
+        <input type="radio" name="pepperoni" value="N" id="pepperoni-no">
+        <label for="pepperoni-no">No</label><br><br>
+
+        <label>Do you want Extra Cheese?</label><br>
+        <input type="radio" name="cheese" value="Y" id="cheese-yes">
+        <label for="cheese-yes">Yes</label>
+        <input type="radio" name="cheese" value="N" id="cheese-no">
+        <label for="cheese-no">No</label><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
